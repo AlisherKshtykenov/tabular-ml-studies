@@ -1,0 +1,29 @@
+.DS_Store
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+.idea/
+.env
+# heavy artifacts are rebuilt by the code
+weights/
+runs/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.npz
+*.zip
+# datasets are downloaded by the code (small CSVs that are committed are listed explicitly)
+data/*
+!data/raw/
+data/raw/*
+!data/raw/bank-full.csv
+!data/raw/bank-names.txt
+!data/info/
+# results: only figures and tables are kept
+results/*
+!results/figures/
+!results/figures_en/
+!results/tables/
+!results/tables_en/

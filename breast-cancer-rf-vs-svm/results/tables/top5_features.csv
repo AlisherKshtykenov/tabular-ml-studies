@@ -1,0 +1,6 @@
+,Gini (RF),|coef_| (linear SVM),Permutation (RBF SVM)
+1,worst area (0.168),mean concavity (1.028),worst texture (0.009)
+2,mean concave points (0.111),worst texture (0.960),worst fractal dimension (0.006)
+3,worst concave points (0.102),mean concave points (0.925),worst radius (0.006)
+4,worst radius (0.081),radius error (0.752),worst perimeter (0.006)
+5,worst perimeter (0.079),area error (0.733),worst concavity (0.006)

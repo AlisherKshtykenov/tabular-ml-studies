@@ -1,0 +1,5 @@
+сравнение,разность,ДИ 2.5%,ДИ 97.5%
+Numpy MLP − LogReg,0.0228,0.0059,0.0405
+sklearn MLP − LogReg,0.0121,-0.0009,0.0241
+Numpy MLP − sklearn MLP,0.0107,-0.003,0.0249
+Numpy MLP − PyTorch MLP,0.0045,-0.0049,0.0159

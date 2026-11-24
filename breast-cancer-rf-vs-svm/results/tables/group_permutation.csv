@@ -1,0 +1,9 @@
+группа,признаков,падение ROC-AUC,std,модель
+"размер (radius, perimeter, area)",9,0.13895440251572339,0.02797171026581697,RBF SVM
+"форма контура (concavity, concave points, compactness)",9,0.054893867924528425,0.021372417813423167,RBF SVM
+текстура (texture),3,0.01623427672955984,0.009502177379191117,RBF SVM
+"прочее (smoothness, symmetry, fractal dimension)",9,0.014209905660377449,0.008969696004178806,RBF SVM
+"размер (radius, perimeter, area)",9,0.1435731132075473,0.03276652437293315,RF
+"форма контура (concavity, concave points, compactness)",9,0.06007272012578625,0.020162405132421887,RF
+текстура (texture),3,0.006849449685534684,0.002667114785099734,RF
+"прочее (smoothness, symmetry, fractal dimension)",9,0.0006878930817611188,0.001707758175804131,RF

@@ -1,0 +1,6 @@
+,Recall,Recall,Precision,Precision,Cost,Cost
+,mean,std,mean,std,mean,std
+Модель,,,,,,
+RF,0.926,0.011,0.959,0.006,275.1,37.531
+SVM (строка 5),0.948,0.007,0.937,0.008,199.5,23.806
+SVM balanced (строка 6),0.955,0.005,0.953,0.009,170.5,17.018

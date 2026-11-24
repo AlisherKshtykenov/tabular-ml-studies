@@ -1,0 +1,14 @@
+Показатель,Эталон,Получено
+Строк / злокачественных,569 / 212,569 / 212
+Сплиты train / val / test,398 / 85 / 86,398 / 85 / 86
+Доли класса в сплитах,0.372 / 0.376 / 0.372,0.372 / 0.376 / 0.372
+SVM Recall на val без / со scaler,0.69 / 0.875,0.69 / 0.875
+RF на val: ROC-AUC / Recall / Precision / F1,0.994 / 0.906 / 1.00 / 0.951,0.994 / 0.906 / 1.000 / 0.951
+SVM на val: ROC-AUC / Recall / Precision / F1,0.996 / 0.875 / 1.00 / 0.933,0.996 / 0.875 / 1.000 / 0.933
+Лучшие параметры SVM,"rbf, C=1, gamma=0.1","{'svc__C': 1, 'svc__gamma': 0.1, 'svc__kernel': 'rbf'}"
+Лучшие параметры RF,совпадают с дефолтом,"{'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'n_estimators': 100}"
+Топ-5 Gini,"worst area, mean concave points, worst concave points, worst radius, worst perimeter","worst area, mean concave points, worst concave points, worst radius, worst perimeter"
+Топ-5 |coef_|,"mean concavity, worst texture, mean concave points, radius error, area error","mean concavity, worst texture, mean concave points, radius error, area error"
+Диапазон топ-5 permutation,0.005–0.009,0.006–0.009
+RF на test: ROC-AUC / Recall / Precision / Cost,0.999 / 0.906 / 1.00 / 60,0.999 / 0.906 / 1.000 / 60
+SVM на test: ROC-AUC / Recall / Precision / Cost,0.996 / 0.938 / 0.909 / 43,0.996 / 0.938 / 0.909 / 43

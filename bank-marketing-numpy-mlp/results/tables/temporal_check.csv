@@ -1,0 +1,6 @@
+Модель,PR-AUC,ROC-AUC
+Dummy,0.393,0.5
+LogReg,0.516,0.64
+sklearn MLP,0.525,0.649
+Numpy MLP,0.515,0.63
+PyTorch MLP,0.523,0.641
